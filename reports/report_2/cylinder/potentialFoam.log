@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-6aa359dae696
+Exec   : potentialFoam -writep -writePhi
+Date   : Dec 23 2024
+Time   : 23:06:27
+Host   : "LAPTOP-4O98FBV9"
+PID    : 6636
+I/O    : uncollated
+Case   : /home/bsa/OpenFOAM/bsa-12/run/cylinder
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading velocity field U
+
+Constructing pressure field p
+
+Constructing velocity potential field Phi
+
+No MRF models present
+
+
+Calculating potential flow
+GAMG:  Solving for Phi, Initial residual = 0.979335, Final residual = 0.0045683, No Iterations 2
+GAMG:  Solving for Phi, Initial residual = 0.980971, Final residual = 0.00380556, No Iterations 2
+GAMG:  Solving for Phi, Initial residual = 0.978899, Final residual = 0.00415591, No Iterations 2
+GAMG:  Solving for Phi, Initial residual = 0.9783, Final residual = 0.00407475, No Iterations 2
+Continuity error = -1.90367e+10
+Interpolated velocity error = 3.01684e+08
+
+Calculating approximate pressure field
+GAMG:  Solving for p, Initial residual = 1, Final residual = 0.00235658, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.920551, Final residual = 0.00722474, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.914702, Final residual = 0.00363438, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.932415, Final residual = 0.00251894, No Iterations 1
+ExecutionTime = 0.309924 s  ClockTime = 1 s
+
+End
+

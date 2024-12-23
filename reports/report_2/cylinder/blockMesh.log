@@ -1,0 +1,196 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 12-6aa359dae696
+Exec   : blockMesh
+Date   : Dec 23 2024
+Time   : 22:20:39
+Host   : "LAPTOP-4O98FBV9"
+PID    : 5335
+I/O    : uncollated
+Case   : /home/bsa/OpenFOAM/bsa-12/run/cylinder
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "blockMeshDict"
+
+Creating block mesh from
+    "system/blockMeshDict"
+Expanding #calc at line 21 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 22 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 47 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 48 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 51 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 52 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 54 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 67 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 68 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 71 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 72 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 74 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 76 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 77 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 78 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 79 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 80 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 81 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 82 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 83 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 84 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 85 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 85 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 86 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 86 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 87 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 88 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 88 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 90 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 91 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 92 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 93 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 94 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 95 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 96 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 97 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 98 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 99 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 99 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 100 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 100 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 101 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 102 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Expanding #calc at line 102 in file "/home/bsa/OpenFOAM/bsa-12/run/cylinder/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 28
+		Number of boundary faces : 64
+		Number of defined boundary faces : 64
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 
+        j : 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 
+        k : 1
+    Block 1 cell size :
+        i : 0.00625 0.00590239 .. 0.00590239 0.00625 0.00590239 .. 0.00590239 
+        j : 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 
+        k : 1
+    Block 2 cell size :
+        i : 0.015 .. 0.015 0.0153283 .. 0.0153283 0.015 .. 0.015 0.0153283 .. 0.0153283 
+        j : 0.127222 .. 0.127222 0.126431 .. 0.126538 0.127222 .. 0.127222 0.126431 .. 0.126538 
+        k : 1
+    Block 3 cell size :
+        i : 0.0164645 .. 0.0164645
+        j : 0.0323223
+        k : 1
+    Block 4 cell size :
+        i : 0.127222 .. 0.127222 0.123271 .. 0.123804 0.127222 .. 0.127222 0.123271 .. 0.123804 
+        j : 0.025 .. 0.025 0.026805 .. 0.026805 0.025 .. 0.025 0.026805 
+        k : 1
+    Block 5 cell size :
+        i : 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 
+        j : 0.127222 .. 0.127222 0.126426 .. 0.126426 0.127222 .. 0.127222 0.126426 .. 0.126426 
+        k : 1
+    Block 6 cell size :
+        i : 0.00625 .. 0.00625 0.00590239 .. 0.00590239 0.00625 0.00590239 .. 0.00590239 
+        j : 0.127222 .. 0.127222 0.126426 .. 0.126426 0.127222 .. 0.127222 0.126426 .. 0.126426 
+        k : 1
+    Block 7 cell size :
+        i : 0.05 .. 0.05 0.0536099 .. 0.0536099 0.05 0.0536099 .. 0.0536099 
+        j : 0.0353554 .. 0.0353554 0.0282093 .. 0.0324438 0.0353554 .. 0.0353554 0.0282093 .. 0.0324438 
+        k : 1
+    Block 8 cell size :
+        i : 0.0323223
+        j : 0.0646447 .. 0.0646446
+        k : 1
+    Block 9 cell size :
+        i : 0.025 .. 0.025 0.026805 0.025 .. 0.025 0.026805 
+        j : 0.127222 .. 0.127222 0.123271 .. 0.123804 0.127222 .. 0.127222 0.123271 .. 0.123804 
+        k : 1
+    Block 10 cell size :
+        i : 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 
+        j : 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 
+        k : 1
+    Block 11 cell size :
+        i : 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 
+        j : 0.00625 0.00590239 .. 0.00590239 0.00625 0.00590239 .. 0.00590239 
+        k : 1
+    Block 12 cell size :
+        i : 0.127222 .. 0.127222 0.126431 .. 0.126538 0.127222 .. 0.127222 0.126431 .. 0.126538 
+        j : 0.015 .. 0.015 0.0153283 .. 0.0153283 0.015 .. 0.015 0.0153283 .. 0.0153283 
+        k : 1
+    Block 13 cell size :
+        i : 0.0323223
+        j : 0.0164645 .. 0.0164645
+        k : 1
+    Block 14 cell size :
+        i : 0.025 .. 0.025 0.026805 0.025 .. 0.025 0.026805 
+        j : 0.127222 .. 0.127222 0.123271 .. 0.123804 0.127222 .. 0.127222 0.123271 .. 0.123804 
+        k : 1
+    Block 15 cell size :
+        i : 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 0.00625001 .. 0.00625001 0.0059024 .. 0.0059024 
+        j : 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 
+        k : 1
+    Block 16 cell size :
+        i : 0.00625 0.00590239 .. 0.00590239 0.00625 0.00590239 .. 0.00590239 
+        j : 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 0.0636107 .. 0.0636107 0.0644059 .. 0.0644059 
+        k : 1
+    Block 17 cell size :
+        i : 0.05 0.0536099 .. 0.0536099 0.05 0.0536099 .. 0.0536099 
+        j : 0.127222 .. 0.127222 0.119321 .. 0.120393 0.127222 .. 0.127222 0.119321 .. 0.120393 
+        k : 1
+    Block 18 cell size :
+        i : 0.0646447 .. 0.0646446
+        j : 0.0323223
+        k : 1
+    Block 19 cell size :
+        i : 0.127222 .. 0.127222 0.123271 .. 0.123804 0.127222 .. 0.127222 0.123271 .. 0.123804 
+        j : 0.025 .. 0.025 0.026805 .. 0.026805 0.025 .. 0.025 0.026805 
+        k : 1
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-2 -2 -0.5) (4 2 0.5)
+  nPoints: 85720
+  nCells: 42400
+  nFaces: 170060
+  nInternalFaces: 84340
+----------------
+Patches
+----------------
+  patch 0 (start: 84340 size: 260) name: top
+  patch 1 (start: 84600 size: 260) name: bottom
+  patch 2 (start: 84860 size: 120) name: inlet
+  patch 3 (start: 84980 size: 120) name: outlet
+  patch 4 (start: 85100 size: 160) name: cylinder
+  patch 5 (start: 85260 size: 84800) name: frontAndBack
+
+End
+
