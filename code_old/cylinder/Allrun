@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Командный сценарий для лабораторной работы №2
+
+rm -rf 0
+cp 0.orig 0 -r
+blockMesh | tee blockMesh.log
+checkMesh | tee checkMesh.log
+renumberMesh -overwrite
+
+cp system/fvSchemes.potential system/fvSchemes
+cp system/fvSolution.potential system/fvSolution
+potentialFoam -writep -writephi | tee potentialFoam.log
+
+cp system/fvSchemes.piso system/fvSchemes
+cp system/fvSolution.piso system/fvSolution
+pisoFoam | tee pisoFoam.log
+postProcess -func vorticity

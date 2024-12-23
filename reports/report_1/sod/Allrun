@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Командный сценарий для лабораторной работы №1
+
+blockMesh
+setFields
+rhoCentralFoam | tee rhoCentralFoam.log
+postProcess -func sample
